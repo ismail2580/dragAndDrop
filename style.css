@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f1f1f1;
+}
+.DragAndDrop{
+  border: dotted #d1d6d6;
+  width: 700px;
+  height: 500px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0,0.1) 0px  10px 50px;
+  border-radius: 10px;
+
+}
+.DragAndDrop:hover,
+.DragAndDrop.active{
+  border: 3px solid rgba(44, 70, 44, 0.672) ;
+}
+.DragAndDrop h3{
+  font-size: 30px;
+  font-weight: 500;
+  color: #333;
+}
+.DragAndDrop span{
+  font-size: 25px;
+  font-weight:500;
+  color: #333;
+  margin: 0 10px 15px;
+}
+.DragAndDrop button{
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 400;
+  background: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgba(97, 145, 50, 0.795);
+}
